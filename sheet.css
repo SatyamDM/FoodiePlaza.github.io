@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+*{
+  margin:0;
+  padding:0;
+}
+.clearfix{
+  clear:both;
+}
+#container{
+  background:white;
+  margin:0 auto;
+  width:100%;
+
+}
+
+header{
+  background: black;
+  width:100%;
+  height:100px;
+  color:white;
+
+}
+
+#left-header {
+
+  font-family:Girassol,sans-serif;
+  padding:20px 0;
+  float:left;
+  margin-left: 30px;
+}
+
+#right-header {
+  float:right;
+}
+
+#right-header  ul{
+  list-style: none;
+}
+#right-header  ul li{
+  float:left;
+  color:white;
+  padding:37px 30px;
+  margin:0 2px;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  transition: background 0.5s;
+  cursor:pointer;
+}
+
+#right-header  ul li:hover{
+  background :green;
+}
+main{
+
+}
+ .main-img{
+   width:100%;
+  height:100%;
+ }
+
+ section{
+   padding: 0 10%;
+ }
+ section h2{
+   text-align: center;
+   font-size:50px;
+   text-shadow: 0px 0px 5px black;
+   font-weight: bold;
+   padding:40px;
+ }
+article {
+  width:20%;
+  height:520px;
+  margin:20px 5% 20px 0;
+  float:left;
+  border:1px solid black;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+   transition: box-shadow 500ms, background 3s;
+   transition-delay: 500ms;
+}
+.margin_left{
+  margin-left:2%;
+
+}
+.margin_right{
+  margin-right:0;
+}
+.article_img{
+
+  width:100%;
+  border-bottom: 1px solid black;
+
+}
+
+.article_title{
+  text-align: center;
+  font-size:20px;
+  font-weight:bolder;
+  margin:10px;
+  color:green;
+}
+
+.article_description {
+  text-align:center;
+  font-weight: bold;
+  font-family: arial,sans-serif;
+}
+article:active {
+  opacity:.3;
+}
+
+article:hover {
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.7);
+}
+
+.secmid{
+  width:100%;
+  height:100%;
+}
+footer{
+  background:black;
+  color:white;
+  width:100%;
+  height:100px;
+
+}
+.left_footer{
+  padding:40px;
+  float:left;
+}
+
+.right_footer{
+  float:right;
+}
+.right_footer ul{
+  list-style: none;
+}
+.right_footer ul li{
+  float: left;
+  color:white;
+  padding:37px 30px;
+  margin:0 2px;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  transition: color 1s;
+}
+.right_footer ul li:hover{
+  color: green;
+}
